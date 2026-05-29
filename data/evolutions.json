@@ -1,0 +1,230 @@
+{
+    "bulbasaur": {
+        "evolves_to": "ivysaur",
+        "min_level": 16
+    },
+    "ivysaur": {
+        "evolves_to": "venusaur",
+        "min_level": 32
+    },
+    "charmander": {
+        "evolves_to": "charmeleon",
+        "min_level": 16
+    },
+    "charmeleon": {
+        "evolves_to": "charizard",
+        "min_level": 36
+    },
+    "squirtle": {
+        "evolves_to": "wartortle",
+        "min_level": 16
+    },
+    "wartortle": {
+        "evolves_to": "blastoise",
+        "min_level": 36
+    },
+    "caterpie": {
+        "evolves_to": "metapod",
+        "min_level": 7
+    },
+    "metapod": {
+        "evolves_to": "butterfree",
+        "min_level": 10
+    },
+    "weedle": {
+        "evolves_to": "kakuna",
+        "min_level": 7
+    },
+    "kakuna": {
+        "evolves_to": "beedrill",
+        "min_level": 10
+    },
+    "pidgey": {
+        "evolves_to": "pidgeotto",
+        "min_level": 18
+    },
+    "pidgeotto": {
+        "evolves_to": "pidgeot",
+        "min_level": 36
+    },
+    "rattata": {
+        "evolves_to": "raticate",
+        "min_level": 20
+    },
+    "spearow": {
+        "evolves_to": "fearow",
+        "min_level": 20
+    },
+    "ekans": {
+        "evolves_to": "arbok",
+        "min_level": 22
+    },
+    "sandshrew": {
+        "evolves_to": "sandslash",
+        "min_level": 22
+    },
+    "nidoran-f": {
+        "evolves_to": "nidorina",
+        "min_level": 16
+    },
+    "nidoran-m": {
+        "evolves_to": "nidorino",
+        "min_level": 16
+    },
+    "zubat": {
+        "evolves_to": "golbat",
+        "min_level": 22
+    },
+    "oddish": {
+        "evolves_to": "gloom",
+        "min_level": 21
+    },
+    "paras": {
+        "evolves_to": "parasect",
+        "min_level": 24
+    },
+    "venonat": {
+        "evolves_to": "venomoth",
+        "min_level": 31
+    },
+    "diglett": {
+        "evolves_to": "dugtrio",
+        "min_level": 26
+    },
+    "meowth": {
+        "evolves_to": "perrserker",
+        "min_level": 28
+    },
+    "psyduck": {
+        "evolves_to": "golduck",
+        "min_level": 33
+    },
+    "mankey": {
+        "evolves_to": "primeape",
+        "min_level": 28
+    },
+    "poliwag": {
+        "evolves_to": "poliwhirl",
+        "min_level": 25
+    },
+    "abra": {
+        "evolves_to": "kadabra",
+        "min_level": 16
+    },
+    "machop": {
+        "evolves_to": "machoke",
+        "min_level": 28
+    },
+    "bellsprout": {
+        "evolves_to": "weepinbell",
+        "min_level": 21
+    },
+    "tentacool": {
+        "evolves_to": "tentacruel",
+        "min_level": 30
+    },
+    "geodude": {
+        "evolves_to": "graveler",
+        "min_level": 25
+    },
+    "ponyta": {
+        "evolves_to": "rapidash",
+        "min_level": 40
+    },
+    "slowpoke": {
+        "evolves_to": "slowbro",
+        "min_level": 37
+    },
+    "magnemite": {
+        "evolves_to": "magneton",
+        "min_level": 30
+    },
+    "doduo": {
+        "evolves_to": "dodrio",
+        "min_level": 31
+    },
+    "seel": {
+        "evolves_to": "dewgong",
+        "min_level": 34
+    },
+    "grimer": {
+        "evolves_to": "muk",
+        "min_level": 38
+    },
+    "gastly": {
+        "evolves_to": "haunter",
+        "min_level": 25
+    },
+    "drowzee": {
+        "evolves_to": "hypno",
+        "min_level": 26
+    },
+    "krabby": {
+        "evolves_to": "kingler",
+        "min_level": 28
+    },
+    "voltorb": {
+        "evolves_to": "electrode",
+        "min_level": 30
+    },
+    "cubone": {
+        "evolves_to": "marowak",
+        "min_level": 28
+    },
+    "tyrogue": {
+        "evolves_to": "hitmontop",
+        "min_level": 20
+    },
+    "koffing": {
+        "evolves_to": "weezing",
+        "min_level": 35
+    },
+    "rhyhorn": {
+        "evolves_to": "rhydon",
+        "min_level": 42
+    },
+    "horsea": {
+        "evolves_to": "seadra",
+        "min_level": 32
+    },
+    "goldeen": {
+        "evolves_to": "seaking",
+        "min_level": 33
+    },
+    "mr-mime": {
+        "evolves_to": "mr-rime",
+        "min_level": 42
+    },
+    "smoochum": {
+        "evolves_to": "jynx",
+        "min_level": 30
+    },
+    "elekid": {
+        "evolves_to": "electabuzz",
+        "min_level": 30
+    },
+    "magby": {
+        "evolves_to": "magmar",
+        "min_level": 30
+    },
+    "magikarp": {
+        "evolves_to": "gyarados",
+        "min_level": 20
+    },
+    "omanyte": {
+        "evolves_to": "omastar",
+        "min_level": 40
+    },
+    "kabuto": {
+        "evolves_to": "kabutops",
+        "min_level": 40
+    },
+    "dratini": {
+        "evolves_to": "dragonair",
+        "min_level": 30
+    },
+    "dragonair": {
+        "evolves_to": "dragonite",
+        "min_level": 55
+    }
+}
