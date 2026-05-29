@@ -1,0 +1,7147 @@
+{
+    "1": {
+        "name": "Bulbasaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "base_exp_yield": 64,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 7,
+                "move_name": "leech-seed"
+            },
+            {
+                "level": 13,
+                "move_name": "vine-whip"
+            },
+            {
+                "level": 20,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 27,
+                "move_name": "razor-leaf"
+            },
+            {
+                "level": 34,
+                "move_name": "growth"
+            },
+            {
+                "level": 41,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 48,
+                "move_name": "solar-beam"
+            }
+        ]
+    },
+    "2": {
+        "name": "Ivysaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 60
+        },
+        "base_exp_yield": 142,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "leech-seed"
+            },
+            {
+                "level": 7,
+                "move_name": "leech-seed"
+            },
+            {
+                "level": 13,
+                "move_name": "vine-whip"
+            },
+            {
+                "level": 22,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 30,
+                "move_name": "razor-leaf"
+            },
+            {
+                "level": 38,
+                "move_name": "growth"
+            },
+            {
+                "level": 46,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 54,
+                "move_name": "solar-beam"
+            }
+        ]
+    },
+    "3": {
+        "name": "Venusaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "base_exp_yield": 236,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "vine-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "leech-seed"
+            },
+            {
+                "level": 7,
+                "move_name": "leech-seed"
+            },
+            {
+                "level": 13,
+                "move_name": "vine-whip"
+            },
+            {
+                "level": 22,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 30,
+                "move_name": "razor-leaf"
+            },
+            {
+                "level": 43,
+                "move_name": "growth"
+            },
+            {
+                "level": 55,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 65,
+                "move_name": "solar-beam"
+            }
+        ]
+    },
+    "4": {
+        "name": "Charmander",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "speed": 65
+        },
+        "base_exp_yield": 62,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 9,
+                "move_name": "ember"
+            },
+            {
+                "level": 15,
+                "move_name": "leer"
+            },
+            {
+                "level": 22,
+                "move_name": "rage"
+            },
+            {
+                "level": 30,
+                "move_name": "slash"
+            },
+            {
+                "level": 38,
+                "move_name": "flamethrower"
+            },
+            {
+                "level": 46,
+                "move_name": "fire-spin"
+            }
+        ]
+    },
+    "5": {
+        "name": "Charmeleon",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special-attack": 80,
+            "special-defense": 65,
+            "speed": 80
+        },
+        "base_exp_yield": 142,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 9,
+                "move_name": "ember"
+            },
+            {
+                "level": 15,
+                "move_name": "leer"
+            },
+            {
+                "level": 24,
+                "move_name": "rage"
+            },
+            {
+                "level": 33,
+                "move_name": "slash"
+            },
+            {
+                "level": 42,
+                "move_name": "flamethrower"
+            },
+            {
+                "level": 56,
+                "move_name": "fire-spin"
+            }
+        ]
+    },
+    "6": {
+        "name": "Charizard",
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special-attack": 109,
+            "special-defense": 85,
+            "speed": 100
+        },
+        "base_exp_yield": 240,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 9,
+                "move_name": "ember"
+            },
+            {
+                "level": 15,
+                "move_name": "leer"
+            },
+            {
+                "level": 24,
+                "move_name": "rage"
+            },
+            {
+                "level": 36,
+                "move_name": "slash"
+            },
+            {
+                "level": 46,
+                "move_name": "flamethrower"
+            },
+            {
+                "level": 55,
+                "move_name": "fire-spin"
+            }
+        ]
+    },
+    "7": {
+        "name": "Squirtle",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 64,
+            "speed": 43
+        },
+        "base_exp_yield": 63,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 8,
+                "move_name": "bubble"
+            },
+            {
+                "level": 15,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 22,
+                "move_name": "bite"
+            },
+            {
+                "level": 28,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 35,
+                "move_name": "skull-bash"
+            },
+            {
+                "level": 42,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "8": {
+        "name": "Wartortle",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 58
+        },
+        "base_exp_yield": 142,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 8,
+                "move_name": "bubble"
+            },
+            {
+                "level": 15,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 24,
+                "move_name": "bite"
+            },
+            {
+                "level": 31,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 39,
+                "move_name": "skull-bash"
+            },
+            {
+                "level": 47,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "9": {
+        "name": "Blastoise",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special-attack": 85,
+            "special-defense": 105,
+            "speed": 78
+        },
+        "base_exp_yield": 239,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 8,
+                "move_name": "bubble"
+            },
+            {
+                "level": 15,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 24,
+                "move_name": "bite"
+            },
+            {
+                "level": 31,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 42,
+                "move_name": "skull-bash"
+            },
+            {
+                "level": 52,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "10": {
+        "name": "Caterpie",
+        "types": [
+            "bug"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 45
+        },
+        "base_exp_yield": 39,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "string-shot"
+            }
+        ]
+    },
+    "11": {
+        "name": "Metapod",
+        "types": [
+            "bug"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 30
+        },
+        "base_exp_yield": 72,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "harden"
+            }
+        ]
+    },
+    "12": {
+        "name": "Butterfree",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 70
+        },
+        "base_exp_yield": 178,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 12,
+                "move_name": "confusion"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 16,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 17,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 21,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 26,
+                "move_name": "whirlwind"
+            },
+            {
+                "level": 32,
+                "move_name": "psybeam"
+            }
+        ]
+    },
+    "13": {
+        "name": "Weedle",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 50
+        },
+        "base_exp_yield": 39,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 1,
+                "move_name": "string-shot"
+            }
+        ]
+    },
+    "14": {
+        "name": "Kakuna",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 35
+        },
+        "base_exp_yield": 72,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "harden"
+            }
+        ]
+    },
+    "15": {
+        "name": "Beedrill",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "special-attack": 45,
+            "special-defense": 80,
+            "speed": 75
+        },
+        "base_exp_yield": 178,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 12,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 16,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 20,
+                "move_name": "twineedle"
+            },
+            {
+                "level": 25,
+                "move_name": "rage"
+            },
+            {
+                "level": 30,
+                "move_name": "pin-missile"
+            },
+            {
+                "level": 35,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "16": {
+        "name": "Pidgey",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 56
+        },
+        "base_exp_yield": 50,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "gust"
+            },
+            {
+                "level": 5,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 12,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 19,
+                "move_name": "whirlwind"
+            },
+            {
+                "level": 28,
+                "move_name": "wing-attack"
+            },
+            {
+                "level": 36,
+                "move_name": "agility"
+            },
+            {
+                "level": 44,
+                "move_name": "mirror-move"
+            }
+        ]
+    },
+    "17": {
+        "name": "Pidgeotto",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 71
+        },
+        "base_exp_yield": 122,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "gust"
+            },
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 5,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 12,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 21,
+                "move_name": "whirlwind"
+            },
+            {
+                "level": 31,
+                "move_name": "wing-attack"
+            },
+            {
+                "level": 40,
+                "move_name": "agility"
+            },
+            {
+                "level": 49,
+                "move_name": "mirror-move"
+            }
+        ]
+    },
+    "18": {
+        "name": "Pidgeot",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 101
+        },
+        "base_exp_yield": 216,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "gust"
+            },
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 5,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 12,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 21,
+                "move_name": "whirlwind"
+            },
+            {
+                "level": 31,
+                "move_name": "wing-attack"
+            },
+            {
+                "level": 44,
+                "move_name": "agility"
+            },
+            {
+                "level": 54,
+                "move_name": "mirror-move"
+            }
+        ]
+    },
+    "19": {
+        "name": "Rattata",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special-attack": 25,
+            "special-defense": 35,
+            "speed": 72
+        },
+        "base_exp_yield": 51,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 7,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 14,
+                "move_name": "hyper-fang"
+            },
+            {
+                "level": 23,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 34,
+                "move_name": "super-fang"
+            }
+        ]
+    },
+    "20": {
+        "name": "Raticate",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 97
+        },
+        "base_exp_yield": 145,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 7,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 14,
+                "move_name": "hyper-fang"
+            },
+            {
+                "level": 27,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 41,
+                "move_name": "super-fang"
+            }
+        ]
+    },
+    "21": {
+        "name": "Spearow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special-attack": 31,
+            "special-defense": 31,
+            "speed": 70
+        },
+        "base_exp_yield": 52,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 9,
+                "move_name": "leer"
+            },
+            {
+                "level": 15,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 22,
+                "move_name": "mirror-move"
+            },
+            {
+                "level": 29,
+                "move_name": "drill-peck"
+            },
+            {
+                "level": 36,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "22": {
+        "name": "Fearow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special-attack": 61,
+            "special-defense": 61,
+            "speed": 100
+        },
+        "base_exp_yield": 155,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 9,
+                "move_name": "leer"
+            },
+            {
+                "level": 15,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 25,
+                "move_name": "mirror-move"
+            },
+            {
+                "level": 34,
+                "move_name": "drill-peck"
+            },
+            {
+                "level": 43,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "23": {
+        "name": "Ekans",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special-attack": 40,
+            "special-defense": 54,
+            "speed": 55
+        },
+        "base_exp_yield": 58,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 10,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 17,
+                "move_name": "bite"
+            },
+            {
+                "level": 24,
+                "move_name": "glare"
+            },
+            {
+                "level": 31,
+                "move_name": "screech"
+            },
+            {
+                "level": 38,
+                "move_name": "acid"
+            }
+        ]
+    },
+    "24": {
+        "name": "Arbok",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 69,
+            "special-attack": 65,
+            "special-defense": 79,
+            "speed": 80
+        },
+        "base_exp_yield": 157,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 10,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 17,
+                "move_name": "bite"
+            },
+            {
+                "level": 27,
+                "move_name": "glare"
+            },
+            {
+                "level": 36,
+                "move_name": "screech"
+            },
+            {
+                "level": 47,
+                "move_name": "acid"
+            }
+        ]
+    },
+    "25": {
+        "name": "Pikachu",
+        "types": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "base_exp_yield": 112,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 9,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 16,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 26,
+                "move_name": "swift"
+            },
+            {
+                "level": 33,
+                "move_name": "agility"
+            },
+            {
+                "level": 43,
+                "move_name": "thunder"
+            }
+        ]
+    },
+    "26": {
+        "name": "Raichu",
+        "types": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 110
+        },
+        "base_exp_yield": 218,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-wave"
+            }
+        ]
+    },
+    "27": {
+        "name": "Sandshrew",
+        "types": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 20,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "base_exp_yield": 60,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 10,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 17,
+                "move_name": "slash"
+            },
+            {
+                "level": 24,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 31,
+                "move_name": "swift"
+            },
+            {
+                "level": 38,
+                "move_name": "fury-swipes"
+            }
+        ]
+    },
+    "28": {
+        "name": "Sandslash",
+        "types": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "base_exp_yield": 158,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 10,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 17,
+                "move_name": "slash"
+            },
+            {
+                "level": 27,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 36,
+                "move_name": "swift"
+            },
+            {
+                "level": 47,
+                "move_name": "fury-swipes"
+            }
+        ]
+    },
+    "29": {
+        "name": "Nidoran-f",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 41
+        },
+        "base_exp_yield": 55,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 8,
+                "move_name": "scratch"
+            },
+            {
+                "level": 14,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 21,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 29,
+                "move_name": "bite"
+            },
+            {
+                "level": 36,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 43,
+                "move_name": "double-kick"
+            }
+        ]
+    },
+    "30": {
+        "name": "Nidorina",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 56
+        },
+        "base_exp_yield": 128,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 8,
+                "move_name": "scratch"
+            },
+            {
+                "level": 14,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 23,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 32,
+                "move_name": "bite"
+            },
+            {
+                "level": 41,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 50,
+                "move_name": "double-kick"
+            }
+        ]
+    },
+    "31": {
+        "name": "Nidoqueen",
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "special-attack": 75,
+            "special-defense": 85,
+            "speed": 76
+        },
+        "base_exp_yield": 227,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 8,
+                "move_name": "scratch"
+            },
+            {
+                "level": 14,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 23,
+                "move_name": "body-slam"
+            }
+        ]
+    },
+    "32": {
+        "name": "Nidoran-m",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 50
+        },
+        "base_exp_yield": 55,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 8,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 14,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 21,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 29,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 36,
+                "move_name": "horn-drill"
+            },
+            {
+                "level": 43,
+                "move_name": "double-kick"
+            }
+        ]
+    },
+    "33": {
+        "name": "Nidorino",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "base_exp_yield": 128,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 8,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 14,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 23,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 32,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 41,
+                "move_name": "horn-drill"
+            },
+            {
+                "level": 50,
+                "move_name": "double-kick"
+            }
+        ]
+    },
+    "34": {
+        "name": "Nidoking",
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 85
+        },
+        "base_exp_yield": 227,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "thrash"
+            },
+            {
+                "level": 1,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 8,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 14,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 23,
+                "move_name": "thrash"
+            }
+        ]
+    },
+    "35": {
+        "name": "Clefairy",
+        "types": [
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special-attack": 60,
+            "special-defense": 65,
+            "speed": 35
+        },
+        "base_exp_yield": 113,
+        "growth_rate": "fast",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 13,
+                "move_name": "sing"
+            },
+            {
+                "level": 18,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 24,
+                "move_name": "minimize"
+            },
+            {
+                "level": 31,
+                "move_name": "metronome"
+            },
+            {
+                "level": 39,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 48,
+                "move_name": "light-screen"
+            }
+        ]
+    },
+    "36": {
+        "name": "Clefable",
+        "types": [
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special-attack": 95,
+            "special-defense": 90,
+            "speed": 60
+        },
+        "base_exp_yield": 217,
+        "growth_rate": "fast",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 1,
+                "move_name": "sing"
+            },
+            {
+                "level": 1,
+                "move_name": "minimize"
+            },
+            {
+                "level": 1,
+                "move_name": "metronome"
+            }
+        ]
+    },
+    "37": {
+        "name": "Vulpix",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 65,
+            "speed": 65
+        },
+        "base_exp_yield": 60,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 16,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 21,
+                "move_name": "roar"
+            },
+            {
+                "level": 28,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 35,
+                "move_name": "flamethrower"
+            },
+            {
+                "level": 42,
+                "move_name": "fire-spin"
+            }
+        ]
+    },
+    "38": {
+        "name": "Ninetales",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special-attack": 81,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "base_exp_yield": 177,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "roar"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            }
+        ]
+    },
+    "39": {
+        "name": "Jigglypuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 20
+        },
+        "base_exp_yield": 95,
+        "growth_rate": "fast",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "sing"
+            },
+            {
+                "level": 9,
+                "move_name": "pound"
+            },
+            {
+                "level": 14,
+                "move_name": "disable"
+            },
+            {
+                "level": 19,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 24,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 29,
+                "move_name": "rest"
+            },
+            {
+                "level": 34,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 39,
+                "move_name": "double-edge"
+            }
+        ]
+    },
+    "40": {
+        "name": "Wigglytuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 85,
+            "special-defense": 50,
+            "speed": 45
+        },
+        "base_exp_yield": 196,
+        "growth_rate": "fast",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 1,
+                "move_name": "sing"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "defense-curl"
+            }
+        ]
+    },
+    "41": {
+        "name": "Zubat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 30,
+            "special-defense": 40,
+            "speed": 55
+        },
+        "base_exp_yield": 49,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 10,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 15,
+                "move_name": "bite"
+            },
+            {
+                "level": 21,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 28,
+                "move_name": "wing-attack"
+            },
+            {
+                "level": 36,
+                "move_name": "haze"
+            }
+        ]
+    },
+    "42": {
+        "name": "Golbat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "base_exp_yield": 159,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "bite"
+            },
+            {
+                "level": 1,
+                "move_name": "screech"
+            },
+            {
+                "level": 1,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 10,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 15,
+                "move_name": "bite"
+            },
+            {
+                "level": 21,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 32,
+                "move_name": "wing-attack"
+            },
+            {
+                "level": 43,
+                "move_name": "haze"
+            }
+        ]
+    },
+    "43": {
+        "name": "Oddish",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special-attack": 75,
+            "special-defense": 65,
+            "speed": 30
+        },
+        "base_exp_yield": 64,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "absorb"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 17,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 19,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 24,
+                "move_name": "acid"
+            },
+            {
+                "level": 33,
+                "move_name": "petal-dance"
+            },
+            {
+                "level": 46,
+                "move_name": "solar-beam"
+            }
+        ]
+    },
+    "44": {
+        "name": "Gloom",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "base_exp_yield": 138,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "absorb"
+            },
+            {
+                "level": 1,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 1,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 17,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 19,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 28,
+                "move_name": "acid"
+            },
+            {
+                "level": 38,
+                "move_name": "petal-dance"
+            },
+            {
+                "level": 52,
+                "move_name": "solar-beam"
+            }
+        ]
+    },
+    "45": {
+        "name": "Vileplume",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special-attack": 110,
+            "special-defense": 90,
+            "speed": 50
+        },
+        "base_exp_yield": 221,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "acid"
+            },
+            {
+                "level": 1,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 1,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 1,
+                "move_name": "petal-dance"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 17,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 19,
+                "move_name": "sleep-powder"
+            }
+        ]
+    },
+    "46": {
+        "name": "Paras",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 25
+        },
+        "base_exp_yield": 57,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 13,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 20,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 27,
+                "move_name": "spore"
+            },
+            {
+                "level": 34,
+                "move_name": "slash"
+            },
+            {
+                "level": 41,
+                "move_name": "growth"
+            }
+        ]
+    },
+    "47": {
+        "name": "Parasect",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "base_exp_yield": 142,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 1,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 13,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 20,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 30,
+                "move_name": "spore"
+            },
+            {
+                "level": 39,
+                "move_name": "slash"
+            },
+            {
+                "level": 48,
+                "move_name": "growth"
+            }
+        ]
+    },
+    "48": {
+        "name": "Venonat",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "base_exp_yield": 61,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 24,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 27,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 30,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 35,
+                "move_name": "psybeam"
+            },
+            {
+                "level": 38,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 43,
+                "move_name": "psychic"
+            }
+        ]
+    },
+    "49": {
+        "name": "Venomoth",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 90,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "base_exp_yield": 158,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 1,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 24,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 27,
+                "move_name": "leech-life"
+            },
+            {
+                "level": 30,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 38,
+                "move_name": "psybeam"
+            },
+            {
+                "level": 43,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 50,
+                "move_name": "psychic"
+            }
+        ]
+    },
+    "50": {
+        "name": "Diglett",
+        "types": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 95
+        },
+        "base_exp_yield": 53,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 15,
+                "move_name": "growl"
+            },
+            {
+                "level": 19,
+                "move_name": "dig"
+            },
+            {
+                "level": 24,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 31,
+                "move_name": "slash"
+            },
+            {
+                "level": 40,
+                "move_name": "earthquake"
+            }
+        ]
+    },
+    "51": {
+        "name": "Dugtrio",
+        "types": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 100,
+            "defense": 50,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 120
+        },
+        "base_exp_yield": 149,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "dig"
+            },
+            {
+                "level": 15,
+                "move_name": "growl"
+            },
+            {
+                "level": 19,
+                "move_name": "dig"
+            },
+            {
+                "level": 24,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 35,
+                "move_name": "slash"
+            },
+            {
+                "level": 47,
+                "move_name": "earthquake"
+            }
+        ]
+    },
+    "52": {
+        "name": "Meowth",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 90
+        },
+        "base_exp_yield": 58,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 12,
+                "move_name": "bite"
+            },
+            {
+                "level": 17,
+                "move_name": "pay-day"
+            },
+            {
+                "level": 24,
+                "move_name": "screech"
+            },
+            {
+                "level": 33,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 44,
+                "move_name": "slash"
+            }
+        ]
+    },
+    "53": {
+        "name": "Persian",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 70,
+            "defense": 60,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 115
+        },
+        "base_exp_yield": 154,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "bite"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "screech"
+            },
+            {
+                "level": 12,
+                "move_name": "bite"
+            },
+            {
+                "level": 17,
+                "move_name": "pay-day"
+            },
+            {
+                "level": 24,
+                "move_name": "screech"
+            },
+            {
+                "level": 37,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 51,
+                "move_name": "slash"
+            }
+        ]
+    },
+    "54": {
+        "name": "Psyduck",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special-attack": 65,
+            "special-defense": 50,
+            "speed": 55
+        },
+        "base_exp_yield": 64,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 28,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 31,
+                "move_name": "disable"
+            },
+            {
+                "level": 36,
+                "move_name": "confusion"
+            },
+            {
+                "level": 43,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 52,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "55": {
+        "name": "Golduck",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "special-attack": 95,
+            "special-defense": 80,
+            "speed": 85
+        },
+        "base_exp_yield": 175,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 28,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 31,
+                "move_name": "disable"
+            },
+            {
+                "level": 39,
+                "move_name": "confusion"
+            },
+            {
+                "level": 48,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 59,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "56": {
+        "name": "Mankey",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 35,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "base_exp_yield": 61,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 15,
+                "move_name": "karate-chop"
+            },
+            {
+                "level": 21,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 27,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 33,
+                "move_name": "seismic-toss"
+            },
+            {
+                "level": 39,
+                "move_name": "thrash"
+            }
+        ]
+    },
+    "57": {
+        "name": "Primeape",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 105,
+            "defense": 60,
+            "special-attack": 60,
+            "special-defense": 70,
+            "speed": 95
+        },
+        "base_exp_yield": 159,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "karate-chop"
+            },
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 15,
+                "move_name": "karate-chop"
+            },
+            {
+                "level": 21,
+                "move_name": "fury-swipes"
+            },
+            {
+                "level": 27,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 37,
+                "move_name": "seismic-toss"
+            },
+            {
+                "level": 46,
+                "move_name": "thrash"
+            }
+        ]
+    },
+    "58": {
+        "name": "Growlithe",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 70,
+            "special-defense": 50,
+            "speed": 60
+        },
+        "base_exp_yield": 70,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "bite"
+            },
+            {
+                "level": 1,
+                "move_name": "roar"
+            },
+            {
+                "level": 18,
+                "move_name": "ember"
+            },
+            {
+                "level": 23,
+                "move_name": "leer"
+            },
+            {
+                "level": 30,
+                "move_name": "take-down"
+            },
+            {
+                "level": 39,
+                "move_name": "agility"
+            },
+            {
+                "level": 50,
+                "move_name": "flamethrower"
+            }
+        ]
+    },
+    "59": {
+        "name": "Arcanine",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 100,
+            "special-defense": 80,
+            "speed": 95
+        },
+        "base_exp_yield": 194,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "take-down"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "roar"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            }
+        ]
+    },
+    "60": {
+        "name": "Poliwag",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 50,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 90
+        },
+        "base_exp_yield": 60,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 16,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 19,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 25,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 31,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 38,
+                "move_name": "amnesia"
+            },
+            {
+                "level": 45,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "61": {
+        "name": "Poliwhirl",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "base_exp_yield": 135,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 16,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 19,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 26,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 33,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 41,
+                "move_name": "amnesia"
+            },
+            {
+                "level": 49,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "62": {
+        "name": "Poliwrath",
+        "types": [
+            "water",
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 95,
+            "defense": 95,
+            "special-attack": 70,
+            "special-defense": 90,
+            "speed": 70
+        },
+        "base_exp_yield": 230,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 1,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 16,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 19,
+                "move_name": "water-gun"
+            }
+        ]
+    },
+    "63": {
+        "name": "Abra",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "special-attack": 105,
+            "special-defense": 55,
+            "speed": 90
+        },
+        "base_exp_yield": 62,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "teleport"
+            }
+        ]
+    },
+    "64": {
+        "name": "Kadabra",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 120,
+            "special-defense": 70,
+            "speed": 105
+        },
+        "base_exp_yield": 140,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 1,
+                "move_name": "teleport"
+            },
+            {
+                "level": 16,
+                "move_name": "confusion"
+            },
+            {
+                "level": 20,
+                "move_name": "disable"
+            },
+            {
+                "level": 27,
+                "move_name": "psybeam"
+            },
+            {
+                "level": 31,
+                "move_name": "recover"
+            },
+            {
+                "level": 38,
+                "move_name": "psychic"
+            },
+            {
+                "level": 42,
+                "move_name": "reflect"
+            }
+        ]
+    },
+    "65": {
+        "name": "Alakazam",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 135,
+            "special-defense": 95,
+            "speed": 120
+        },
+        "base_exp_yield": 225,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 1,
+                "move_name": "teleport"
+            },
+            {
+                "level": 16,
+                "move_name": "confusion"
+            },
+            {
+                "level": 20,
+                "move_name": "disable"
+            },
+            {
+                "level": 27,
+                "move_name": "psybeam"
+            },
+            {
+                "level": 31,
+                "move_name": "recover"
+            },
+            {
+                "level": 38,
+                "move_name": "psychic"
+            },
+            {
+                "level": 42,
+                "move_name": "reflect"
+            }
+        ]
+    },
+    "66": {
+        "name": "Machop",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 35
+        },
+        "base_exp_yield": 61,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "karate-chop"
+            },
+            {
+                "level": 20,
+                "move_name": "low-kick"
+            },
+            {
+                "level": 25,
+                "move_name": "leer"
+            },
+            {
+                "level": 32,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 39,
+                "move_name": "seismic-toss"
+            },
+            {
+                "level": 46,
+                "move_name": "submission"
+            }
+        ]
+    },
+    "67": {
+        "name": "Machoke",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special-attack": 50,
+            "special-defense": 60,
+            "speed": 45
+        },
+        "base_exp_yield": 142,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "karate-chop"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "low-kick"
+            },
+            {
+                "level": 20,
+                "move_name": "low-kick"
+            },
+            {
+                "level": 25,
+                "move_name": "leer"
+            },
+            {
+                "level": 36,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 44,
+                "move_name": "seismic-toss"
+            },
+            {
+                "level": 52,
+                "move_name": "submission"
+            }
+        ]
+    },
+    "68": {
+        "name": "Machamp",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 85,
+            "speed": 55
+        },
+        "base_exp_yield": 227,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "karate-chop"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "low-kick"
+            },
+            {
+                "level": 20,
+                "move_name": "low-kick"
+            },
+            {
+                "level": 25,
+                "move_name": "leer"
+            },
+            {
+                "level": 36,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 44,
+                "move_name": "seismic-toss"
+            },
+            {
+                "level": 52,
+                "move_name": "submission"
+            }
+        ]
+    },
+    "69": {
+        "name": "Bellsprout",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 35,
+            "special-attack": 70,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "base_exp_yield": 60,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "vine-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "growth"
+            },
+            {
+                "level": 13,
+                "move_name": "wrap"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 18,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 21,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 26,
+                "move_name": "acid"
+            },
+            {
+                "level": 33,
+                "move_name": "razor-leaf"
+            },
+            {
+                "level": 42,
+                "move_name": "slam"
+            }
+        ]
+    },
+    "70": {
+        "name": "Weepinbell",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 50,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 55
+        },
+        "base_exp_yield": 137,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "vine-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "growth"
+            },
+            {
+                "level": 13,
+                "move_name": "wrap"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 18,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 23,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 29,
+                "move_name": "acid"
+            },
+            {
+                "level": 38,
+                "move_name": "razor-leaf"
+            },
+            {
+                "level": 49,
+                "move_name": "slam"
+            }
+        ]
+    },
+    "71": {
+        "name": "Victreebel",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "base_exp_yield": 221,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "acid"
+            },
+            {
+                "level": 1,
+                "move_name": "razor-leaf"
+            },
+            {
+                "level": 1,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 1,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 13,
+                "move_name": "wrap"
+            },
+            {
+                "level": 15,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 18,
+                "move_name": "sleep-powder"
+            }
+        ]
+    },
+    "72": {
+        "name": "Tentacool",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special-attack": 50,
+            "special-defense": 100,
+            "speed": 70
+        },
+        "base_exp_yield": 67,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "acid"
+            },
+            {
+                "level": 7,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 13,
+                "move_name": "wrap"
+            },
+            {
+                "level": 18,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 22,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 27,
+                "move_name": "constrict"
+            },
+            {
+                "level": 33,
+                "move_name": "barrier"
+            },
+            {
+                "level": 40,
+                "move_name": "screech"
+            },
+            {
+                "level": 48,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "73": {
+        "name": "Tentacruel",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special-attack": 80,
+            "special-defense": 120,
+            "speed": 100
+        },
+        "base_exp_yield": 180,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 1,
+                "move_name": "acid"
+            },
+            {
+                "level": 7,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 13,
+                "move_name": "wrap"
+            },
+            {
+                "level": 18,
+                "move_name": "poison-sting"
+            },
+            {
+                "level": 22,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 27,
+                "move_name": "constrict"
+            },
+            {
+                "level": 35,
+                "move_name": "barrier"
+            },
+            {
+                "level": 43,
+                "move_name": "screech"
+            },
+            {
+                "level": 50,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "74": {
+        "name": "Geodude",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 20
+        },
+        "base_exp_yield": 60,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 11,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 16,
+                "move_name": "rock-throw"
+            },
+            {
+                "level": 21,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 26,
+                "move_name": "harden"
+            },
+            {
+                "level": 31,
+                "move_name": "earthquake"
+            },
+            {
+                "level": 36,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "75": {
+        "name": "Graveler",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 35
+        },
+        "base_exp_yield": 137,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 11,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 16,
+                "move_name": "rock-throw"
+            },
+            {
+                "level": 21,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 29,
+                "move_name": "harden"
+            },
+            {
+                "level": 36,
+                "move_name": "earthquake"
+            },
+            {
+                "level": 43,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "76": {
+        "name": "Golem",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "special-attack": 55,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "base_exp_yield": 223,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 11,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 16,
+                "move_name": "rock-throw"
+            },
+            {
+                "level": 21,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 29,
+                "move_name": "harden"
+            },
+            {
+                "level": 36,
+                "move_name": "earthquake"
+            },
+            {
+                "level": 43,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "77": {
+        "name": "Ponyta",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 90
+        },
+        "base_exp_yield": 82,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 30,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 32,
+                "move_name": "stomp"
+            },
+            {
+                "level": 35,
+                "move_name": "growl"
+            },
+            {
+                "level": 39,
+                "move_name": "fire-spin"
+            },
+            {
+                "level": 43,
+                "move_name": "take-down"
+            },
+            {
+                "level": 48,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "78": {
+        "name": "Rapidash",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 100,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 105
+        },
+        "base_exp_yield": 175,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "stomp"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 30,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 32,
+                "move_name": "stomp"
+            },
+            {
+                "level": 35,
+                "move_name": "growl"
+            },
+            {
+                "level": 39,
+                "move_name": "fire-spin"
+            },
+            {
+                "level": 47,
+                "move_name": "take-down"
+            },
+            {
+                "level": 55,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "79": {
+        "name": "Slowpoke",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 15
+        },
+        "base_exp_yield": 63,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 18,
+                "move_name": "disable"
+            },
+            {
+                "level": 22,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 27,
+                "move_name": "growl"
+            },
+            {
+                "level": 33,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 40,
+                "move_name": "amnesia"
+            },
+            {
+                "level": 48,
+                "move_name": "psychic"
+            }
+        ]
+    },
+    "80": {
+        "name": "Slowbro",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 75,
+            "defense": 110,
+            "special-attack": 100,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "base_exp_yield": 172,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 18,
+                "move_name": "disable"
+            },
+            {
+                "level": 22,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 27,
+                "move_name": "growl"
+            },
+            {
+                "level": 33,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 37,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 44,
+                "move_name": "amnesia"
+            },
+            {
+                "level": 55,
+                "move_name": "psychic"
+            }
+        ]
+    },
+    "81": {
+        "name": "Magnemite",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "base_stats": {
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special-attack": 95,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "base_exp_yield": 65,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 21,
+                "move_name": "sonic-boom"
+            },
+            {
+                "level": 25,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 29,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 35,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 41,
+                "move_name": "swift"
+            },
+            {
+                "level": 47,
+                "move_name": "screech"
+            }
+        ]
+    },
+    "82": {
+        "name": "Magneton",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special-attack": 120,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "base_exp_yield": 163,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "sonic-boom"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 21,
+                "move_name": "sonic-boom"
+            },
+            {
+                "level": 25,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 29,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 38,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 46,
+                "move_name": "swift"
+            },
+            {
+                "level": 54,
+                "move_name": "screech"
+            }
+        ]
+    },
+    "83": {
+        "name": "Farfetchd",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 52,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 58,
+            "special-defense": 62,
+            "speed": 60
+        },
+        "base_exp_yield": 132,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 7,
+                "move_name": "leer"
+            },
+            {
+                "level": 15,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 23,
+                "move_name": "swords-dance"
+            },
+            {
+                "level": 31,
+                "move_name": "agility"
+            },
+            {
+                "level": 39,
+                "move_name": "slash"
+            }
+        ]
+    },
+    "84": {
+        "name": "Doduo",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 75
+        },
+        "base_exp_yield": 62,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 20,
+                "move_name": "growl"
+            },
+            {
+                "level": 24,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 30,
+                "move_name": "drill-peck"
+            },
+            {
+                "level": 36,
+                "move_name": "rage"
+            },
+            {
+                "level": 40,
+                "move_name": "tri-attack"
+            },
+            {
+                "level": 44,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "85": {
+        "name": "Dodrio",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special-attack": 60,
+            "special-defense": 60,
+            "speed": 110
+        },
+        "base_exp_yield": 165,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 20,
+                "move_name": "growl"
+            },
+            {
+                "level": 24,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 30,
+                "move_name": "drill-peck"
+            },
+            {
+                "level": 39,
+                "move_name": "rage"
+            },
+            {
+                "level": 45,
+                "move_name": "tri-attack"
+            },
+            {
+                "level": 51,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "86": {
+        "name": "Seel",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 70,
+            "speed": 45
+        },
+        "base_exp_yield": 65,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 30,
+                "move_name": "growl"
+            },
+            {
+                "level": 35,
+                "move_name": "aurora-beam"
+            },
+            {
+                "level": 40,
+                "move_name": "rest"
+            },
+            {
+                "level": 45,
+                "move_name": "take-down"
+            },
+            {
+                "level": 50,
+                "move_name": "ice-beam"
+            }
+        ]
+    },
+    "87": {
+        "name": "Dewgong",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "special-attack": 70,
+            "special-defense": 95,
+            "speed": 70
+        },
+        "base_exp_yield": 166,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "aurora-beam"
+            },
+            {
+                "level": 30,
+                "move_name": "growl"
+            },
+            {
+                "level": 35,
+                "move_name": "aurora-beam"
+            },
+            {
+                "level": 44,
+                "move_name": "rest"
+            },
+            {
+                "level": 50,
+                "move_name": "take-down"
+            },
+            {
+                "level": 56,
+                "move_name": "ice-beam"
+            }
+        ]
+    },
+    "88": {
+        "name": "Grimer",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 25
+        },
+        "base_exp_yield": 65,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 30,
+                "move_name": "poison-gas"
+            },
+            {
+                "level": 33,
+                "move_name": "minimize"
+            },
+            {
+                "level": 37,
+                "move_name": "sludge"
+            },
+            {
+                "level": 42,
+                "move_name": "harden"
+            },
+            {
+                "level": 48,
+                "move_name": "screech"
+            },
+            {
+                "level": 55,
+                "move_name": "acid-armor"
+            }
+        ]
+    },
+    "89": {
+        "name": "Muk",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special-attack": 65,
+            "special-defense": 100,
+            "speed": 50
+        },
+        "base_exp_yield": 175,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "poison-gas"
+            },
+            {
+                "level": 30,
+                "move_name": "poison-gas"
+            },
+            {
+                "level": 33,
+                "move_name": "minimize"
+            },
+            {
+                "level": 37,
+                "move_name": "sludge"
+            },
+            {
+                "level": 45,
+                "move_name": "harden"
+            },
+            {
+                "level": 53,
+                "move_name": "screech"
+            },
+            {
+                "level": 60,
+                "move_name": "acid-armor"
+            }
+        ]
+    },
+    "90": {
+        "name": "Shellder",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 65,
+            "defense": 100,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 40
+        },
+        "base_exp_yield": 61,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 18,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 23,
+                "move_name": "clamp"
+            },
+            {
+                "level": 30,
+                "move_name": "aurora-beam"
+            },
+            {
+                "level": 39,
+                "move_name": "leer"
+            },
+            {
+                "level": 50,
+                "move_name": "ice-beam"
+            }
+        ]
+    },
+    "91": {
+        "name": "Cloyster",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "base_exp_yield": 184,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 1,
+                "move_name": "aurora-beam"
+            },
+            {
+                "level": 1,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 1,
+                "move_name": "clamp"
+            },
+            {
+                "level": 50,
+                "move_name": "spike-cannon"
+            }
+        ]
+    },
+    "92": {
+        "name": "Gastly",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 100,
+            "special-defense": 35,
+            "speed": 80
+        },
+        "base_exp_yield": 62,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "night-shade"
+            },
+            {
+                "level": 1,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 1,
+                "move_name": "lick"
+            },
+            {
+                "level": 27,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 35,
+                "move_name": "dream-eater"
+            }
+        ]
+    },
+    "93": {
+        "name": "Haunter",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 115,
+            "special-defense": 55,
+            "speed": 95
+        },
+        "base_exp_yield": 142,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "night-shade"
+            },
+            {
+                "level": 1,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 1,
+                "move_name": "lick"
+            },
+            {
+                "level": 29,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 38,
+                "move_name": "dream-eater"
+            }
+        ]
+    },
+    "94": {
+        "name": "Gengar",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 130,
+            "special-defense": 75,
+            "speed": 110
+        },
+        "base_exp_yield": 225,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "night-shade"
+            },
+            {
+                "level": 1,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 1,
+                "move_name": "lick"
+            },
+            {
+                "level": 29,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 38,
+                "move_name": "dream-eater"
+            }
+        ]
+    },
+    "95": {
+        "name": "Onix",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special-attack": 30,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "base_exp_yield": 77,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "screech"
+            },
+            {
+                "level": 15,
+                "move_name": "bind"
+            },
+            {
+                "level": 19,
+                "move_name": "rock-throw"
+            },
+            {
+                "level": 25,
+                "move_name": "rage"
+            },
+            {
+                "level": 33,
+                "move_name": "slam"
+            },
+            {
+                "level": 43,
+                "move_name": "harden"
+            }
+        ]
+    },
+    "96": {
+        "name": "Drowzee",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "special-attack": 43,
+            "special-defense": 90,
+            "speed": 42
+        },
+        "base_exp_yield": 66,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 12,
+                "move_name": "disable"
+            },
+            {
+                "level": 17,
+                "move_name": "confusion"
+            },
+            {
+                "level": 24,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 29,
+                "move_name": "poison-gas"
+            },
+            {
+                "level": 32,
+                "move_name": "psychic"
+            },
+            {
+                "level": 37,
+                "move_name": "meditate"
+            }
+        ]
+    },
+    "97": {
+        "name": "Hypno",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "special-attack": 73,
+            "special-defense": 115,
+            "speed": 67
+        },
+        "base_exp_yield": 169,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 1,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 12,
+                "move_name": "disable"
+            },
+            {
+                "level": 17,
+                "move_name": "confusion"
+            },
+            {
+                "level": 24,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 33,
+                "move_name": "poison-gas"
+            },
+            {
+                "level": 37,
+                "move_name": "psychic"
+            },
+            {
+                "level": 43,
+                "move_name": "meditate"
+            }
+        ]
+    },
+    "98": {
+        "name": "Krabby",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 50
+        },
+        "base_exp_yield": 65,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 20,
+                "move_name": "vice-grip"
+            },
+            {
+                "level": 25,
+                "move_name": "guillotine"
+            },
+            {
+                "level": 30,
+                "move_name": "stomp"
+            },
+            {
+                "level": 35,
+                "move_name": "crabhammer"
+            },
+            {
+                "level": 40,
+                "move_name": "harden"
+            }
+        ]
+    },
+    "99": {
+        "name": "Kingler",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 75
+        },
+        "base_exp_yield": 166,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "vice-grip"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 20,
+                "move_name": "vice-grip"
+            },
+            {
+                "level": 25,
+                "move_name": "guillotine"
+            },
+            {
+                "level": 34,
+                "move_name": "stomp"
+            },
+            {
+                "level": 42,
+                "move_name": "crabhammer"
+            },
+            {
+                "level": 49,
+                "move_name": "harden"
+            }
+        ]
+    },
+    "100": {
+        "name": "Voltorb",
+        "types": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 100
+        },
+        "base_exp_yield": 66,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "screech"
+            },
+            {
+                "level": 17,
+                "move_name": "sonic-boom"
+            },
+            {
+                "level": 22,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 29,
+                "move_name": "light-screen"
+            },
+            {
+                "level": 36,
+                "move_name": "swift"
+            },
+            {
+                "level": 43,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "101": {
+        "name": "Electrode",
+        "types": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 150
+        },
+        "base_exp_yield": 172,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "sonic-boom"
+            },
+            {
+                "level": 1,
+                "move_name": "screech"
+            },
+            {
+                "level": 17,
+                "move_name": "sonic-boom"
+            },
+            {
+                "level": 22,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 29,
+                "move_name": "light-screen"
+            },
+            {
+                "level": 40,
+                "move_name": "swift"
+            },
+            {
+                "level": 50,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "102": {
+        "name": "Exeggcute",
+        "types": [
+            "grass",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 40
+        },
+        "base_exp_yield": 65,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 1,
+                "move_name": "barrage"
+            },
+            {
+                "level": 25,
+                "move_name": "reflect"
+            },
+            {
+                "level": 28,
+                "move_name": "leech-seed"
+            },
+            {
+                "level": 32,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 37,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 42,
+                "move_name": "solar-beam"
+            },
+            {
+                "level": 48,
+                "move_name": "sleep-powder"
+            }
+        ]
+    },
+    "103": {
+        "name": "Exeggutor",
+        "types": [
+            "grass",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 75,
+            "speed": 55
+        },
+        "base_exp_yield": 186,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "hypnosis"
+            },
+            {
+                "level": 1,
+                "move_name": "barrage"
+            },
+            {
+                "level": 28,
+                "move_name": "stomp"
+            }
+        ]
+    },
+    "104": {
+        "name": "Cubone",
+        "types": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 35
+        },
+        "base_exp_yield": 64,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "bone-club"
+            },
+            {
+                "level": 25,
+                "move_name": "leer"
+            },
+            {
+                "level": 31,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 38,
+                "move_name": "thrash"
+            },
+            {
+                "level": 43,
+                "move_name": "bonemerang"
+            },
+            {
+                "level": 46,
+                "move_name": "rage"
+            }
+        ]
+    },
+    "105": {
+        "name": "Marowak",
+        "types": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special-attack": 50,
+            "special-defense": 80,
+            "speed": 45
+        },
+        "base_exp_yield": 149,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 1,
+                "move_name": "bone-club"
+            },
+            {
+                "level": 25,
+                "move_name": "leer"
+            },
+            {
+                "level": 33,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 41,
+                "move_name": "thrash"
+            },
+            {
+                "level": 48,
+                "move_name": "bonemerang"
+            },
+            {
+                "level": 55,
+                "move_name": "rage"
+            }
+        ]
+    },
+    "106": {
+        "name": "Hitmonlee",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 120,
+            "defense": 53,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 87
+        },
+        "base_exp_yield": 159,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "double-kick"
+            },
+            {
+                "level": 1,
+                "move_name": "meditate"
+            },
+            {
+                "level": 33,
+                "move_name": "rolling-kick"
+            },
+            {
+                "level": 38,
+                "move_name": "jump-kick"
+            },
+            {
+                "level": 43,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 48,
+                "move_name": "high-jump-kick"
+            },
+            {
+                "level": 53,
+                "move_name": "mega-kick"
+            }
+        ]
+    },
+    "107": {
+        "name": "Hitmonchan",
+        "types": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 105,
+            "defense": 79,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 76
+        },
+        "base_exp_yield": 159,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "comet-punch"
+            },
+            {
+                "level": 1,
+                "move_name": "agility"
+            },
+            {
+                "level": 33,
+                "move_name": "fire-punch"
+            },
+            {
+                "level": 38,
+                "move_name": "ice-punch"
+            },
+            {
+                "level": 43,
+                "move_name": "thunder-punch"
+            },
+            {
+                "level": 48,
+                "move_name": "mega-punch"
+            },
+            {
+                "level": 53,
+                "move_name": "counter"
+            }
+        ]
+    },
+    "108": {
+        "name": "Lickitung",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 55,
+            "defense": 75,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 30
+        },
+        "base_exp_yield": 77,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 7,
+                "move_name": "stomp"
+            },
+            {
+                "level": 15,
+                "move_name": "disable"
+            },
+            {
+                "level": 23,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 31,
+                "move_name": "slam"
+            },
+            {
+                "level": 39,
+                "move_name": "screech"
+            }
+        ]
+    },
+    "109": {
+        "name": "Koffing",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 35
+        },
+        "base_exp_yield": 68,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "smog"
+            },
+            {
+                "level": 32,
+                "move_name": "sludge"
+            },
+            {
+                "level": 37,
+                "move_name": "smokescreen"
+            },
+            {
+                "level": 40,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 45,
+                "move_name": "haze"
+            },
+            {
+                "level": 48,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "110": {
+        "name": "Weezing",
+        "types": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special-attack": 85,
+            "special-defense": 70,
+            "speed": 60
+        },
+        "base_exp_yield": 172,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "smog"
+            },
+            {
+                "level": 1,
+                "move_name": "sludge"
+            },
+            {
+                "level": 32,
+                "move_name": "sludge"
+            },
+            {
+                "level": 39,
+                "move_name": "smokescreen"
+            },
+            {
+                "level": 43,
+                "move_name": "self-destruct"
+            },
+            {
+                "level": 49,
+                "move_name": "haze"
+            },
+            {
+                "level": 53,
+                "move_name": "explosion"
+            }
+        ]
+    },
+    "111": {
+        "name": "Rhyhorn",
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 25
+        },
+        "base_exp_yield": 69,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 30,
+                "move_name": "stomp"
+            },
+            {
+                "level": 35,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 40,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 45,
+                "move_name": "horn-drill"
+            },
+            {
+                "level": 50,
+                "move_name": "leer"
+            },
+            {
+                "level": 55,
+                "move_name": "take-down"
+            }
+        ]
+    },
+    "112": {
+        "name": "Rhydon",
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 40
+        },
+        "base_exp_yield": 170,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "stomp"
+            },
+            {
+                "level": 1,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 30,
+                "move_name": "stomp"
+            },
+            {
+                "level": 35,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 40,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 48,
+                "move_name": "horn-drill"
+            },
+            {
+                "level": 55,
+                "move_name": "leer"
+            },
+            {
+                "level": 64,
+                "move_name": "take-down"
+            }
+        ]
+    },
+    "113": {
+        "name": "Chansey",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special-attack": 35,
+            "special-defense": 105,
+            "speed": 50
+        },
+        "base_exp_yield": 395,
+        "growth_rate": "fast",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 24,
+                "move_name": "sing"
+            },
+            {
+                "level": 30,
+                "move_name": "growl"
+            },
+            {
+                "level": 38,
+                "move_name": "minimize"
+            },
+            {
+                "level": 44,
+                "move_name": "defense-curl"
+            },
+            {
+                "level": 48,
+                "move_name": "light-screen"
+            },
+            {
+                "level": 54,
+                "move_name": "double-edge"
+            }
+        ]
+    },
+    "114": {
+        "name": "Tangela",
+        "types": [
+            "grass"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 55,
+            "defense": 115,
+            "special-attack": 100,
+            "special-defense": 40,
+            "speed": 60
+        },
+        "base_exp_yield": 87,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "bind"
+            },
+            {
+                "level": 1,
+                "move_name": "constrict"
+            },
+            {
+                "level": 29,
+                "move_name": "absorb"
+            },
+            {
+                "level": 32,
+                "move_name": "poison-powder"
+            },
+            {
+                "level": 36,
+                "move_name": "stun-spore"
+            },
+            {
+                "level": 39,
+                "move_name": "sleep-powder"
+            },
+            {
+                "level": 45,
+                "move_name": "slam"
+            },
+            {
+                "level": 49,
+                "move_name": "growth"
+            }
+        ]
+    },
+    "115": {
+        "name": "Kangaskhan",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 40,
+            "special-defense": 80,
+            "speed": 90
+        },
+        "base_exp_yield": 172,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "comet-punch"
+            },
+            {
+                "level": 1,
+                "move_name": "rage"
+            },
+            {
+                "level": 26,
+                "move_name": "bite"
+            },
+            {
+                "level": 31,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 36,
+                "move_name": "mega-punch"
+            },
+            {
+                "level": 41,
+                "move_name": "leer"
+            },
+            {
+                "level": 46,
+                "move_name": "dizzy-punch"
+            }
+        ]
+    },
+    "116": {
+        "name": "Horsea",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special-attack": 70,
+            "special-defense": 25,
+            "speed": 60
+        },
+        "base_exp_yield": 59,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 19,
+                "move_name": "smokescreen"
+            },
+            {
+                "level": 24,
+                "move_name": "leer"
+            },
+            {
+                "level": 30,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 37,
+                "move_name": "agility"
+            },
+            {
+                "level": 45,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "117": {
+        "name": "Seadra",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 95,
+            "special-defense": 45,
+            "speed": 85
+        },
+        "base_exp_yield": 154,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "smokescreen"
+            },
+            {
+                "level": 1,
+                "move_name": "bubble"
+            },
+            {
+                "level": 19,
+                "move_name": "smokescreen"
+            },
+            {
+                "level": 24,
+                "move_name": "leer"
+            },
+            {
+                "level": 30,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 41,
+                "move_name": "agility"
+            },
+            {
+                "level": 52,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "118": {
+        "name": "Goldeen",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special-attack": 35,
+            "special-defense": 50,
+            "speed": 63
+        },
+        "base_exp_yield": 64,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 19,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 24,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 30,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 37,
+                "move_name": "waterfall"
+            },
+            {
+                "level": 45,
+                "move_name": "horn-drill"
+            },
+            {
+                "level": 54,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "119": {
+        "name": "Seaking",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 68
+        },
+        "base_exp_yield": 158,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 1,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 19,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 24,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 30,
+                "move_name": "fury-attack"
+            },
+            {
+                "level": 39,
+                "move_name": "waterfall"
+            },
+            {
+                "level": 48,
+                "move_name": "horn-drill"
+            },
+            {
+                "level": 54,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "120": {
+        "name": "Staryu",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 70,
+            "special-defense": 55,
+            "speed": 85
+        },
+        "base_exp_yield": 68,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 17,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 22,
+                "move_name": "harden"
+            },
+            {
+                "level": 27,
+                "move_name": "recover"
+            },
+            {
+                "level": 32,
+                "move_name": "swift"
+            },
+            {
+                "level": 37,
+                "move_name": "minimize"
+            },
+            {
+                "level": 42,
+                "move_name": "light-screen"
+            },
+            {
+                "level": 47,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "121": {
+        "name": "Starmie",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 115
+        },
+        "base_exp_yield": 182,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "harden"
+            }
+        ]
+    },
+    "122": {
+        "name": "Mr-mime",
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 120,
+            "speed": 90
+        },
+        "base_exp_yield": 161,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 1,
+                "move_name": "barrier"
+            },
+            {
+                "level": 15,
+                "move_name": "confusion"
+            },
+            {
+                "level": 23,
+                "move_name": "light-screen"
+            },
+            {
+                "level": 31,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 39,
+                "move_name": "meditate"
+            },
+            {
+                "level": 47,
+                "move_name": "substitute"
+            }
+        ]
+    },
+    "123": {
+        "name": "Scyther",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 55,
+            "special-defense": 80,
+            "speed": 105
+        },
+        "base_exp_yield": 100,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 17,
+                "move_name": "leer"
+            },
+            {
+                "level": 20,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 24,
+                "move_name": "double-team"
+            },
+            {
+                "level": 29,
+                "move_name": "slash"
+            },
+            {
+                "level": 35,
+                "move_name": "swords-dance"
+            },
+            {
+                "level": 42,
+                "move_name": "agility"
+            }
+        ]
+    },
+    "124": {
+        "name": "Jynx",
+        "types": [
+            "ice",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 50,
+            "defense": 35,
+            "special-attack": 115,
+            "special-defense": 95,
+            "speed": 95
+        },
+        "base_exp_yield": 159,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 1,
+                "move_name": "lovely-kiss"
+            },
+            {
+                "level": 18,
+                "move_name": "lick"
+            },
+            {
+                "level": 23,
+                "move_name": "double-slap"
+            },
+            {
+                "level": 31,
+                "move_name": "ice-punch"
+            },
+            {
+                "level": 39,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 47,
+                "move_name": "thrash"
+            },
+            {
+                "level": 58,
+                "move_name": "blizzard"
+            }
+        ]
+    },
+    "125": {
+        "name": "Electabuzz",
+        "types": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special-attack": 95,
+            "special-defense": 85,
+            "speed": 105
+        },
+        "base_exp_yield": 172,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 34,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 37,
+                "move_name": "screech"
+            },
+            {
+                "level": 42,
+                "move_name": "thunder-punch"
+            },
+            {
+                "level": 49,
+                "move_name": "light-screen"
+            },
+            {
+                "level": 54,
+                "move_name": "thunder"
+            }
+        ]
+    },
+    "126": {
+        "name": "Magmar",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 93
+        },
+        "base_exp_yield": 173,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 36,
+                "move_name": "leer"
+            },
+            {
+                "level": 39,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 43,
+                "move_name": "fire-punch"
+            },
+            {
+                "level": 48,
+                "move_name": "smokescreen"
+            },
+            {
+                "level": 52,
+                "move_name": "smog"
+            },
+            {
+                "level": 55,
+                "move_name": "flamethrower"
+            }
+        ]
+    },
+    "127": {
+        "name": "Pinsir",
+        "types": [
+            "bug"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special-attack": 55,
+            "special-defense": 70,
+            "speed": 85
+        },
+        "base_exp_yield": 175,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "vice-grip"
+            },
+            {
+                "level": 25,
+                "move_name": "seismic-toss"
+            },
+            {
+                "level": 30,
+                "move_name": "guillotine"
+            },
+            {
+                "level": 36,
+                "move_name": "focus-energy"
+            },
+            {
+                "level": 43,
+                "move_name": "harden"
+            },
+            {
+                "level": 49,
+                "move_name": "slash"
+            },
+            {
+                "level": 54,
+                "move_name": "swords-dance"
+            }
+        ]
+    },
+    "128": {
+        "name": "Tauros",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 70,
+            "speed": 110
+        },
+        "base_exp_yield": 172,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 21,
+                "move_name": "stomp"
+            },
+            {
+                "level": 28,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 35,
+                "move_name": "leer"
+            },
+            {
+                "level": 44,
+                "move_name": "rage"
+            },
+            {
+                "level": 51,
+                "move_name": "take-down"
+            }
+        ]
+    },
+    "129": {
+        "name": "Magikarp",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special-attack": 15,
+            "special-defense": 20,
+            "speed": 80
+        },
+        "base_exp_yield": 40,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "splash"
+            },
+            {
+                "level": 15,
+                "move_name": "tackle"
+            }
+        ]
+    },
+    "130": {
+        "name": "Gyarados",
+        "types": [
+            "water",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special-attack": 60,
+            "special-defense": 100,
+            "speed": 81
+        },
+        "base_exp_yield": 189,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "bite"
+            },
+            {
+                "level": 1,
+                "move_name": "hydro-pump"
+            },
+            {
+                "level": 1,
+                "move_name": "dragon-rage"
+            },
+            {
+                "level": 20,
+                "move_name": "bite"
+            },
+            {
+                "level": 25,
+                "move_name": "dragon-rage"
+            },
+            {
+                "level": 32,
+                "move_name": "leer"
+            },
+            {
+                "level": 41,
+                "move_name": "hydro-pump"
+            },
+            {
+                "level": 52,
+                "move_name": "hyper-beam"
+            }
+        ]
+    },
+    "131": {
+        "name": "Lapras",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "base_stats": {
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special-attack": 85,
+            "special-defense": 95,
+            "speed": 60
+        },
+        "base_exp_yield": 187,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "growl"
+            },
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 16,
+                "move_name": "sing"
+            },
+            {
+                "level": 20,
+                "move_name": "mist"
+            },
+            {
+                "level": 25,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 31,
+                "move_name": "confuse-ray"
+            },
+            {
+                "level": 38,
+                "move_name": "ice-beam"
+            },
+            {
+                "level": 46,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "132": {
+        "name": "Ditto",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special-attack": 48,
+            "special-defense": 48,
+            "speed": 48
+        },
+        "base_exp_yield": 101,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "transform"
+            }
+        ]
+    },
+    "133": {
+        "name": "Eevee",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 45,
+            "special-defense": 65,
+            "speed": 55
+        },
+        "base_exp_yield": 65,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 27,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 31,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 37,
+                "move_name": "bite"
+            },
+            {
+                "level": 45,
+                "move_name": "take-down"
+            }
+        ]
+    },
+    "134": {
+        "name": "Vaporeon",
+        "types": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 130,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 65
+        },
+        "base_exp_yield": 184,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 27,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 31,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 37,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 40,
+                "move_name": "bite"
+            },
+            {
+                "level": 42,
+                "move_name": "acid-armor"
+            },
+            {
+                "level": 44,
+                "move_name": "haze"
+            },
+            {
+                "level": 48,
+                "move_name": "mist"
+            },
+            {
+                "level": 54,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "135": {
+        "name": "Jolteon",
+        "types": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 130
+        },
+        "base_exp_yield": 184,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 27,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 31,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 37,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 40,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 42,
+                "move_name": "double-kick"
+            },
+            {
+                "level": 44,
+                "move_name": "agility"
+            },
+            {
+                "level": 48,
+                "move_name": "pin-missile"
+            },
+            {
+                "level": 54,
+                "move_name": "thunder"
+            }
+        ]
+    },
+    "136": {
+        "name": "Flareon",
+        "types": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special-attack": 95,
+            "special-defense": 110,
+            "speed": 65
+        },
+        "base_exp_yield": 184,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "sand-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "ember"
+            },
+            {
+                "level": 1,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 27,
+                "move_name": "quick-attack"
+            },
+            {
+                "level": 31,
+                "move_name": "ember"
+            },
+            {
+                "level": 37,
+                "move_name": "tail-whip"
+            },
+            {
+                "level": 40,
+                "move_name": "bite"
+            },
+            {
+                "level": 42,
+                "move_name": "leer"
+            },
+            {
+                "level": 44,
+                "move_name": "fire-spin"
+            },
+            {
+                "level": 48,
+                "move_name": "rage"
+            },
+            {
+                "level": 54,
+                "move_name": "flamethrower"
+            }
+        ]
+    },
+    "137": {
+        "name": "Porygon",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "base_exp_yield": 79,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "tackle"
+            },
+            {
+                "level": 1,
+                "move_name": "sharpen"
+            },
+            {
+                "level": 1,
+                "move_name": "conversion"
+            },
+            {
+                "level": 23,
+                "move_name": "psybeam"
+            },
+            {
+                "level": 28,
+                "move_name": "recover"
+            },
+            {
+                "level": 35,
+                "move_name": "agility"
+            },
+            {
+                "level": 42,
+                "move_name": "tri-attack"
+            }
+        ]
+    },
+    "138": {
+        "name": "Omanyte",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 40,
+            "defense": 100,
+            "special-attack": 90,
+            "special-defense": 55,
+            "speed": 35
+        },
+        "base_exp_yield": 71,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 34,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 39,
+                "move_name": "leer"
+            },
+            {
+                "level": 46,
+                "move_name": "spike-cannon"
+            },
+            {
+                "level": 53,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "139": {
+        "name": "Omastar",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 60,
+            "defense": 125,
+            "special-attack": 115,
+            "special-defense": 70,
+            "speed": 55
+        },
+        "base_exp_yield": 173,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "water-gun"
+            },
+            {
+                "level": 1,
+                "move_name": "withdraw"
+            },
+            {
+                "level": 34,
+                "move_name": "horn-attack"
+            },
+            {
+                "level": 39,
+                "move_name": "leer"
+            },
+            {
+                "level": 44,
+                "move_name": "spike-cannon"
+            },
+            {
+                "level": 49,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "140": {
+        "name": "Kabuto",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 80,
+            "defense": 90,
+            "special-attack": 55,
+            "special-defense": 45,
+            "speed": 55
+        },
+        "base_exp_yield": 71,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "harden"
+            },
+            {
+                "level": 34,
+                "move_name": "absorb"
+            },
+            {
+                "level": 39,
+                "move_name": "slash"
+            },
+            {
+                "level": 44,
+                "move_name": "leer"
+            },
+            {
+                "level": 49,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "141": {
+        "name": "Kabutops",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 115,
+            "defense": 105,
+            "special-attack": 65,
+            "special-defense": 70,
+            "speed": 80
+        },
+        "base_exp_yield": 173,
+        "growth_rate": "medium",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "scratch"
+            },
+            {
+                "level": 1,
+                "move_name": "absorb"
+            },
+            {
+                "level": 1,
+                "move_name": "harden"
+            },
+            {
+                "level": 34,
+                "move_name": "absorb"
+            },
+            {
+                "level": 39,
+                "move_name": "slash"
+            },
+            {
+                "level": 46,
+                "move_name": "leer"
+            },
+            {
+                "level": 53,
+                "move_name": "hydro-pump"
+            }
+        ]
+    },
+    "142": {
+        "name": "Aerodactyl",
+        "types": [
+            "rock",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 130
+        },
+        "base_exp_yield": 180,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wing-attack"
+            },
+            {
+                "level": 1,
+                "move_name": "agility"
+            },
+            {
+                "level": 33,
+                "move_name": "supersonic"
+            },
+            {
+                "level": 38,
+                "move_name": "bite"
+            },
+            {
+                "level": 45,
+                "move_name": "take-down"
+            },
+            {
+                "level": 54,
+                "move_name": "hyper-beam"
+            }
+        ]
+    },
+    "143": {
+        "name": "Snorlax",
+        "types": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 110,
+            "speed": 30
+        },
+        "base_exp_yield": 189,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "headbutt"
+            },
+            {
+                "level": 1,
+                "move_name": "amnesia"
+            },
+            {
+                "level": 1,
+                "move_name": "rest"
+            },
+            {
+                "level": 35,
+                "move_name": "body-slam"
+            },
+            {
+                "level": 41,
+                "move_name": "harden"
+            },
+            {
+                "level": 48,
+                "move_name": "double-edge"
+            },
+            {
+                "level": 56,
+                "move_name": "hyper-beam"
+            }
+        ]
+    },
+    "144": {
+        "name": "Articuno",
+        "types": [
+            "ice",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special-attack": 95,
+            "special-defense": 125,
+            "speed": 85
+        },
+        "base_exp_yield": 261,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "ice-beam"
+            },
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 51,
+                "move_name": "blizzard"
+            },
+            {
+                "level": 55,
+                "move_name": "agility"
+            },
+            {
+                "level": 60,
+                "move_name": "mist"
+            }
+        ]
+    },
+    "145": {
+        "name": "Zapdos",
+        "types": [
+            "electric",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 90,
+            "speed": 100
+        },
+        "base_exp_yield": 261,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "drill-peck"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-shock"
+            },
+            {
+                "level": 51,
+                "move_name": "thunder"
+            },
+            {
+                "level": 55,
+                "move_name": "agility"
+            },
+            {
+                "level": 60,
+                "move_name": "light-screen"
+            }
+        ]
+    },
+    "146": {
+        "name": "Moltres",
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special-attack": 125,
+            "special-defense": 85,
+            "speed": 90
+        },
+        "base_exp_yield": 261,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "peck"
+            },
+            {
+                "level": 1,
+                "move_name": "fire-spin"
+            },
+            {
+                "level": 51,
+                "move_name": "leer"
+            },
+            {
+                "level": 55,
+                "move_name": "agility"
+            },
+            {
+                "level": 60,
+                "move_name": "sky-attack"
+            }
+        ]
+    },
+    "147": {
+        "name": "Dratini",
+        "types": [
+            "dragon"
+        ],
+        "base_stats": {
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 50
+        },
+        "base_exp_yield": 60,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 10,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 20,
+                "move_name": "agility"
+            },
+            {
+                "level": 30,
+                "move_name": "slam"
+            },
+            {
+                "level": 40,
+                "move_name": "dragon-rage"
+            },
+            {
+                "level": 50,
+                "move_name": "hyper-beam"
+            }
+        ]
+    },
+    "148": {
+        "name": "Dragonair",
+        "types": [
+            "dragon"
+        ],
+        "base_stats": {
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "base_exp_yield": 147,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 10,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 20,
+                "move_name": "agility"
+            },
+            {
+                "level": 35,
+                "move_name": "slam"
+            },
+            {
+                "level": 45,
+                "move_name": "dragon-rage"
+            },
+            {
+                "level": 55,
+                "move_name": "hyper-beam"
+            }
+        ]
+    },
+    "149": {
+        "name": "Dragonite",
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "base_exp_yield": 270,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "wrap"
+            },
+            {
+                "level": 1,
+                "move_name": "leer"
+            },
+            {
+                "level": 1,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 1,
+                "move_name": "agility"
+            },
+            {
+                "level": 10,
+                "move_name": "thunder-wave"
+            },
+            {
+                "level": 20,
+                "move_name": "agility"
+            },
+            {
+                "level": 35,
+                "move_name": "slam"
+            },
+            {
+                "level": 45,
+                "move_name": "dragon-rage"
+            },
+            {
+                "level": 60,
+                "move_name": "hyper-beam"
+            }
+        ]
+    },
+    "150": {
+        "name": "Mewtwo",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special-attack": 154,
+            "special-defense": 90,
+            "speed": 130
+        },
+        "base_exp_yield": 306,
+        "growth_rate": "slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "disable"
+            },
+            {
+                "level": 1,
+                "move_name": "confusion"
+            },
+            {
+                "level": 1,
+                "move_name": "psychic"
+            },
+            {
+                "level": 1,
+                "move_name": "swift"
+            },
+            {
+                "level": 63,
+                "move_name": "barrier"
+            },
+            {
+                "level": 66,
+                "move_name": "psychic"
+            },
+            {
+                "level": 70,
+                "move_name": "recover"
+            },
+            {
+                "level": 75,
+                "move_name": "mist"
+            },
+            {
+                "level": 81,
+                "move_name": "amnesia"
+            }
+        ]
+    },
+    "151": {
+        "name": "Mew",
+        "types": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "base_exp_yield": 270,
+        "growth_rate": "medium-slow",
+        "learnset": [
+            {
+                "level": 1,
+                "move_name": "pound"
+            },
+            {
+                "level": 10,
+                "move_name": "transform"
+            },
+            {
+                "level": 20,
+                "move_name": "mega-punch"
+            },
+            {
+                "level": 30,
+                "move_name": "metronome"
+            },
+            {
+                "level": 40,
+                "move_name": "psychic"
+            }
+        ]
+    }
+}
