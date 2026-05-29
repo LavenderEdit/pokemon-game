@@ -1,0 +1,1726 @@
+{
+    "body-slam": {
+        "name": "Body Slam",
+        "accuracy": 100,
+        "power": 85,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "disable": {
+        "name": "Disable",
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "agility": {
+        "name": "Agility",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "speed",
+                "change": 2
+            }
+        ]
+    },
+    "haze": {
+        "name": "Haze",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "ice",
+        "damage_class": "status",
+        "target": "entire-field",
+        "stat_changes": []
+    },
+    "pound": {
+        "name": "Pound",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "sludge": {
+        "name": "Sludge",
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "hyper-beam": {
+        "name": "Hyper Beam",
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "twineedle": {
+        "name": "Twineedle",
+        "accuracy": 100,
+        "power": 25,
+        "pp": 20,
+        "priority": 0,
+        "type": "bug",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "explosion": {
+        "name": "Explosion",
+        "accuracy": 100,
+        "power": 250,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "all-other-pokemon",
+        "stat_changes": []
+    },
+    "seismic-toss": {
+        "name": "Seismic Toss",
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "double-team": {
+        "name": "Double Team",
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "evasion",
+                "change": 1
+            }
+        ]
+    },
+    "mist": {
+        "name": "Mist",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "ice",
+        "damage_class": "status",
+        "target": "users-field",
+        "stat_changes": []
+    },
+    "scratch": {
+        "name": "Scratch",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "horn-drill": {
+        "name": "Horn Drill",
+        "accuracy": 30,
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "ice-punch": {
+        "name": "Ice Punch",
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "priority": 0,
+        "type": "ice",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "horn-attack": {
+        "name": "Horn Attack",
+        "accuracy": 100,
+        "power": 65,
+        "pp": 25,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "acid": {
+        "name": "Acid",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "special",
+        "target": "all-opponents",
+        "stat_changes": [
+            {
+                "stat": "special-defense",
+                "change": -1
+            }
+        ]
+    },
+    "mega-punch": {
+        "name": "Mega Punch",
+        "accuracy": 85,
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "comet-punch": {
+        "name": "Comet Punch",
+        "accuracy": 85,
+        "power": 18,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "confuse-ray": {
+        "name": "Confuse Ray",
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "ghost",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "amnesia": {
+        "name": "Amnesia",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "special-defense",
+                "change": 2
+            }
+        ]
+    },
+    "sleep-powder": {
+        "name": "Sleep Powder",
+        "accuracy": 75,
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "water-gun": {
+        "name": "Water Gun",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 25,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "roar": {
+        "name": "Roar",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": -6,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "tri-attack": {
+        "name": "Tri Attack",
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "reflect": {
+        "name": "Reflect",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "users-field",
+        "stat_changes": []
+    },
+    "double-slap": {
+        "name": "Double Slap",
+        "accuracy": 85,
+        "power": 15,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "spore": {
+        "name": "Spore",
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "take-down": {
+        "name": "Take Down",
+        "accuracy": 85,
+        "power": 90,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "sand-attack": {
+        "name": "Sand Attack",
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "type": "ground",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": [
+            {
+                "stat": "accuracy",
+                "change": -1
+            }
+        ]
+    },
+    "petal-dance": {
+        "name": "Petal Dance",
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "special",
+        "target": "random-opponent",
+        "stat_changes": []
+    },
+    "fire-spin": {
+        "name": "Fire Spin",
+        "accuracy": 85,
+        "power": 35,
+        "pp": 15,
+        "priority": 0,
+        "type": "fire",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "growl": {
+        "name": "Growl",
+        "accuracy": 100,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "all-opponents",
+        "stat_changes": [
+            {
+                "stat": "attack",
+                "change": -1
+            }
+        ]
+    },
+    "sonic-boom": {
+        "name": "Sonic Boom",
+        "accuracy": 90,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "jump-kick": {
+        "name": "Jump Kick",
+        "accuracy": 95,
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "sharpen": {
+        "name": "Sharpen",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "attack",
+                "change": 1
+            }
+        ]
+    },
+    "crabhammer": {
+        "name": "Crabhammer",
+        "accuracy": 90,
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "minimize": {
+        "name": "Minimize",
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "evasion",
+                "change": 2
+            }
+        ]
+    },
+    "defense-curl": {
+        "name": "Defense Curl",
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": 1
+            }
+        ]
+    },
+    "dragon-rage": {
+        "name": "Dragon Rage",
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "dragon",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "mega-kick": {
+        "name": "Mega Kick",
+        "accuracy": 75,
+        "power": 120,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "rolling-kick": {
+        "name": "Rolling Kick",
+        "accuracy": 85,
+        "power": 60,
+        "pp": 15,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "high-jump-kick": {
+        "name": "High Jump Kick",
+        "accuracy": 90,
+        "power": 130,
+        "pp": 10,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "transform": {
+        "name": "Transform",
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "glare": {
+        "name": "Glare",
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "bite": {
+        "name": "Bite",
+        "accuracy": 100,
+        "power": 60,
+        "pp": 25,
+        "priority": 0,
+        "type": "dark",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "bone-club": {
+        "name": "Bone Club",
+        "accuracy": 85,
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "type": "ground",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "rock-throw": {
+        "name": "Rock Throw",
+        "accuracy": 90,
+        "power": 50,
+        "pp": 15,
+        "priority": 0,
+        "type": "rock",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "guillotine": {
+        "name": "Guillotine",
+        "accuracy": 30,
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "smokescreen": {
+        "name": "Smokescreen",
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": [
+            {
+                "stat": "accuracy",
+                "change": -1
+            }
+        ]
+    },
+    "poison-sting": {
+        "name": "Poison Sting",
+        "accuracy": 100,
+        "power": 15,
+        "pp": 35,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "fury-attack": {
+        "name": "Fury Attack",
+        "accuracy": 85,
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "thrash": {
+        "name": "Thrash",
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "random-opponent",
+        "stat_changes": []
+    },
+    "aurora-beam": {
+        "name": "Aurora Beam",
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "type": "ice",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": [
+            {
+                "stat": "attack",
+                "change": -1
+            }
+        ]
+    },
+    "flamethrower": {
+        "name": "Flamethrower",
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "priority": 0,
+        "type": "fire",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "psybeam": {
+        "name": "Psybeam",
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "swords-dance": {
+        "name": "Swords Dance",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "attack",
+                "change": 2
+            }
+        ]
+    },
+    "screech": {
+        "name": "Screech",
+        "accuracy": 85,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": -2
+            }
+        ]
+    },
+    "fury-swipes": {
+        "name": "Fury Swipes",
+        "accuracy": 80,
+        "power": 18,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "waterfall": {
+        "name": "Waterfall",
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "withdraw": {
+        "name": "Withdraw",
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": 1
+            }
+        ]
+    },
+    "swift": {
+        "name": "Swift",
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "special",
+        "target": "all-opponents",
+        "stat_changes": []
+    },
+    "peck": {
+        "name": "Peck",
+        "accuracy": 100,
+        "power": 35,
+        "pp": 35,
+        "priority": 0,
+        "type": "flying",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "leech-life": {
+        "name": "Leech Life",
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "type": "bug",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "light-screen": {
+        "name": "Light Screen",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "users-field",
+        "stat_changes": []
+    },
+    "fire-punch": {
+        "name": "Fire Punch",
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "priority": 0,
+        "type": "fire",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "low-kick": {
+        "name": "Low Kick",
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "thunder-punch": {
+        "name": "Thunder Punch",
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "priority": 0,
+        "type": "electric",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "sing": {
+        "name": "Sing",
+        "accuracy": 55,
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "double-edge": {
+        "name": "Double-Edge",
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "barrage": {
+        "name": "Barrage",
+        "accuracy": 85,
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "metronome": {
+        "name": "Metronome",
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "vine-whip": {
+        "name": "Vine Whip",
+        "accuracy": 100,
+        "power": 45,
+        "pp": 25,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "razor-leaf": {
+        "name": "Razor Leaf",
+        "accuracy": 95,
+        "power": 55,
+        "pp": 25,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "physical",
+        "target": "all-opponents",
+        "stat_changes": []
+    },
+    "conversion": {
+        "name": "Conversion",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "self-destruct": {
+        "name": "Self-Destruct",
+        "accuracy": 100,
+        "power": 200,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "all-other-pokemon",
+        "stat_changes": []
+    },
+    "poison-gas": {
+        "name": "Poison Gas",
+        "accuracy": 90,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "status",
+        "target": "all-opponents",
+        "stat_changes": []
+    },
+    "whirlwind": {
+        "name": "Whirlwind",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": -6,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "slam": {
+        "name": "Slam",
+        "accuracy": 75,
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "double-kick": {
+        "name": "Double Kick",
+        "accuracy": 100,
+        "power": 30,
+        "pp": 30,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "focus-energy": {
+        "name": "Focus Energy",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "submission": {
+        "name": "Submission",
+        "accuracy": 80,
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "splash": {
+        "name": "Splash",
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "teleport": {
+        "name": "Teleport",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": -6,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "mirror-move": {
+        "name": "Mirror Move",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "flying",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "poison-powder": {
+        "name": "Poison Powder",
+        "accuracy": 75,
+        "power": null,
+        "pp": 35,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "growth": {
+        "name": "Growth",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "attack",
+                "change": 1
+            },
+            {
+                "stat": "special-attack",
+                "change": 1
+            }
+        ]
+    },
+    "dream-eater": {
+        "name": "Dream Eater",
+        "accuracy": 100,
+        "power": 100,
+        "pp": 15,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "confusion": {
+        "name": "Confusion",
+        "accuracy": 100,
+        "power": 50,
+        "pp": 25,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "substitute": {
+        "name": "Substitute",
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "recover": {
+        "name": "Recover",
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "dizzy-punch": {
+        "name": "Dizzy Punch",
+        "accuracy": 100,
+        "power": 70,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "harden": {
+        "name": "Harden",
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": 1
+            }
+        ]
+    },
+    "barrier": {
+        "name": "Barrier",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": 2
+            }
+        ]
+    },
+    "earthquake": {
+        "name": "Earthquake",
+        "accuracy": 100,
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "type": "ground",
+        "damage_class": "physical",
+        "target": "all-other-pokemon",
+        "stat_changes": []
+    },
+    "psychic": {
+        "name": "Psychic",
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": [
+            {
+                "stat": "special-defense",
+                "change": -1
+            }
+        ]
+    },
+    "solar-beam": {
+        "name": "Solar Beam",
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "dig": {
+        "name": "Dig",
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "type": "ground",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "drill-peck": {
+        "name": "Drill Peck",
+        "accuracy": 100,
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "type": "flying",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "thunder-wave": {
+        "name": "Thunder Wave",
+        "accuracy": 90,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "electric",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "karate-chop": {
+        "name": "Karate Chop",
+        "accuracy": 100,
+        "power": 50,
+        "pp": 25,
+        "priority": 0,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "slash": {
+        "name": "Slash",
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "blizzard": {
+        "name": "Blizzard",
+        "accuracy": 70,
+        "power": 110,
+        "pp": 5,
+        "priority": 0,
+        "type": "ice",
+        "damage_class": "special",
+        "target": "all-opponents",
+        "stat_changes": []
+    },
+    "gust": {
+        "name": "Gust",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "type": "flying",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "hypnosis": {
+        "name": "Hypnosis",
+        "accuracy": 60,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "headbutt": {
+        "name": "Headbutt",
+        "accuracy": 100,
+        "power": 70,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "bubble": {
+        "name": "Bubble",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "special",
+        "target": "all-opponents",
+        "stat_changes": [
+            {
+                "stat": "speed",
+                "change": -1
+            }
+        ]
+    },
+    "hydro-pump": {
+        "name": "Hydro Pump",
+        "accuracy": 80,
+        "power": 110,
+        "pp": 5,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "vice-grip": {
+        "name": "Vise Grip",
+        "accuracy": 100,
+        "power": 55,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "wing-attack": {
+        "name": "Wing Attack",
+        "accuracy": 100,
+        "power": 60,
+        "pp": 35,
+        "priority": 0,
+        "type": "flying",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "night-shade": {
+        "name": "Night Shade",
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "type": "ghost",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "thunder": {
+        "name": "Thunder",
+        "accuracy": 70,
+        "power": 110,
+        "pp": 10,
+        "priority": 0,
+        "type": "electric",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "absorb": {
+        "name": "Absorb",
+        "accuracy": 100,
+        "power": 20,
+        "pp": 25,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "smog": {
+        "name": "Smog",
+        "accuracy": 70,
+        "power": 30,
+        "pp": 20,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "stun-spore": {
+        "name": "Stun Spore",
+        "accuracy": 75,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "thunder-shock": {
+        "name": "Thunder Shock",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "priority": 0,
+        "type": "electric",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "ice-beam": {
+        "name": "Ice Beam",
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "priority": 0,
+        "type": "ice",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "lovely-kiss": {
+        "name": "Lovely Kiss",
+        "accuracy": 75,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "rest": {
+        "name": "Rest",
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": []
+    },
+    "tackle": {
+        "name": "Tackle",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "sky-attack": {
+        "name": "Sky Attack",
+        "accuracy": 90,
+        "power": 140,
+        "pp": 5,
+        "priority": 0,
+        "type": "flying",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "stomp": {
+        "name": "Stomp",
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "counter": {
+        "name": "Counter",
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "priority": -5,
+        "type": "fighting",
+        "damage_class": "physical",
+        "target": "specific-move",
+        "stat_changes": []
+    },
+    "super-fang": {
+        "name": "Super Fang",
+        "accuracy": 90,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "pin-missile": {
+        "name": "Pin Missile",
+        "accuracy": 95,
+        "power": 25,
+        "pp": 20,
+        "priority": 0,
+        "type": "bug",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "pay-day": {
+        "name": "Pay Day",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "tail-whip": {
+        "name": "Tail Whip",
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "all-opponents",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": -1
+            }
+        ]
+    },
+    "bonemerang": {
+        "name": "Bonemerang",
+        "accuracy": 90,
+        "power": 50,
+        "pp": 10,
+        "priority": 0,
+        "type": "ground",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "leer": {
+        "name": "Leer",
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "all-opponents",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": -1
+            }
+        ]
+    },
+    "constrict": {
+        "name": "Constrict",
+        "accuracy": 100,
+        "power": 10,
+        "pp": 35,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": [
+            {
+                "stat": "speed",
+                "change": -1
+            }
+        ]
+    },
+    "acid-armor": {
+        "name": "Acid Armor",
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "poison",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "defense",
+                "change": 2
+            }
+        ]
+    },
+    "leech-seed": {
+        "name": "Leech Seed",
+        "accuracy": 90,
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "type": "grass",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "skull-bash": {
+        "name": "Skull Bash",
+        "accuracy": 100,
+        "power": 130,
+        "pp": 10,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "supersonic": {
+        "name": "Supersonic",
+        "accuracy": 55,
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "status",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "quick-attack": {
+        "name": "Quick Attack",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "priority": 1,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "wrap": {
+        "name": "Wrap",
+        "accuracy": 90,
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "string-shot": {
+        "name": "String Shot",
+        "accuracy": 95,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "bug",
+        "damage_class": "status",
+        "target": "all-opponents",
+        "stat_changes": [
+            {
+                "stat": "speed",
+                "change": -2
+            }
+        ]
+    },
+    "hyper-fang": {
+        "name": "Hyper Fang",
+        "accuracy": 90,
+        "power": 80,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "spike-cannon": {
+        "name": "Spike Cannon",
+        "accuracy": 100,
+        "power": 20,
+        "pp": 15,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "ember": {
+        "name": "Ember",
+        "accuracy": 100,
+        "power": 40,
+        "pp": 25,
+        "priority": 0,
+        "type": "fire",
+        "damage_class": "special",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "lick": {
+        "name": "Lick",
+        "accuracy": 100,
+        "power": 30,
+        "pp": 30,
+        "priority": 0,
+        "type": "ghost",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "meditate": {
+        "name": "Meditate",
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "type": "psychic",
+        "damage_class": "status",
+        "target": "user",
+        "stat_changes": [
+            {
+                "stat": "attack",
+                "change": 1
+            }
+        ]
+    },
+    "clamp": {
+        "name": "Clamp",
+        "accuracy": 85,
+        "power": 35,
+        "pp": 15,
+        "priority": 0,
+        "type": "water",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "bind": {
+        "name": "Bind",
+        "accuracy": 85,
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    },
+    "rage": {
+        "name": "Rage",
+        "accuracy": 100,
+        "power": 20,
+        "pp": 20,
+        "priority": 0,
+        "type": "normal",
+        "damage_class": "physical",
+        "target": "selected-pokemon",
+        "stat_changes": []
+    }
+}
