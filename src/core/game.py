@@ -68,6 +68,8 @@ class Game:
 
     def update(self):
         if self.state == STATE_OVERWORLD:
+            self.collision_system.update_dynamic_obstacles([self.npc])
+
             if not self.is_fading:
                 self.player.update(self.collision_system)
             else:
@@ -79,10 +81,8 @@ class Game:
                     self.player.direction = DIR_RIGHT
                     self.player.rect.topleft = (self.player.x, self.player.y)
                     
-                    # Brendan va a su esquina derecha mirando a la izquierda
                     self.npc.reposition(BRENDAN_SPAWN_LOCATION, DIR_LEFT)
                     
-                    # Terminamos el efecto y cambiamos el estado del juego
                     self.is_fading = False
                     self.fade_alpha = 0
                     self.state = STATE_BATTLE

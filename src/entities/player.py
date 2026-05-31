@@ -22,12 +22,13 @@ class Player:
         self.level = PLAYER_START_LEVEL
         self.money = PLAYER_START_MONEY
         
+        self.rect = pygame.Rect(self.x + 2, self.y + 14, 16, 8)
         self.direction = DIR_UP
         self.is_moving = False
         self.frame_index = 1
         self.animation_timer = 0
         
-        base_w, base_h = 16, 22
+        base_w, base_h = 15, 20
         self.width = int(base_w * PLAYER_CUSTOM_SCALE)
         self.height = int(base_h * PLAYER_CUSTOM_SCALE)
         
