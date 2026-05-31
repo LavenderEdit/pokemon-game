@@ -13,5 +13,6 @@ Thumbs.db
 .idea/
 
 assets/pokemon/downloaded/
+assets/sprites/pokemon/extracted
 
 scraping/*

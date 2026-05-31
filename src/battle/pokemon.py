@@ -1,4 +1,7 @@
 import random
+import json
+import os
+from src.battle.moves import MoveDatabase
 
 class Pokemon:
     def __init__(self, pokemon_id, json_data, level, move_objects, is_enemy=False):
@@ -47,7 +50,13 @@ class Pokemon:
         
         physical_types = ["NORMAL", "FIGHTING", "FLYING", "POISON", "GROUND", "ROCK", "BUG", "GHOST", "STEEL"]
         
-        if move.type in physical_types:
+        is_physical = True
+        if hasattr(move, 'damage_class') and move.damage_class in ["physical", "special"]:
+            is_physical = (move.damage_class == "physical")
+        else:
+            is_physical = (move.type in physical_types)
+
+        if is_physical:
             atk_stat = self.attack
             def_stat = target.defense
         else:
@@ -65,9 +74,66 @@ class Pokemon:
         total_damage = int(base_damage * stab * random_mod)
         return max(1, total_damage)
 
-    def get_hp_percentage(self):
+    def get_hp_ratio(self):
         return self.hp / self.max_hp
 
     def heal_full(self):
         self.hp = self.max_hp
         self.fainted = False
+
+
+class PokemonDatabase:
+    _db = {}
+    _loaded = False
+
+    @classmethod
+    def load_database(cls):
+        if cls._loaded:
+            return
+            
+        path = os.path.join("data", "pokemon.json")
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        cls._db = {str(item.get("id", i)): item for i, item in enumerate(data)}
+                        for item in data:
+                            if "name" in item:
+                                cls._db[item["name"].lower()] = item
+                    else:
+                        cls._db = data
+            except Exception as e:
+                print(f"Error cargando pokemon.json: {e}")
+                cls._db = {}
+                
+        cls._loaded = True
+
+    @classmethod
+    def create_pokemon(cls, identifier, level, is_enemy=False):
+        cls.load_database()
+        
+        str_id = str(identifier).lower()
+        json_data = cls._db.get(str_id, {})
+        
+        if not json_data:
+            print(f"Advertencia: No se encontró data para {identifier}")
+            json_data = {"name": str(identifier).capitalize()}
+
+        pokemon_id = json_data.get("id", str_id)
+        
+        raw_moves = json_data.get("moves", ["tackle"])
+        move_objects = []
+        for m_id in raw_moves[:4]:
+            move_objects.append(MoveDatabase.get_move(m_id))
+            
+        if not move_objects:
+            move_objects.append(MoveDatabase.get_move("tackle"))
+            
+        return Pokemon(
+            pokemon_id=pokemon_id,
+            json_data=json_data,
+            level=level,
+            move_objects=move_objects,
+            is_enemy=is_enemy
+        )

@@ -1,26 +1,37 @@
 import pygame
 import sys
+import random
 from src.config.constants import *
 from src.entities.player import Player
 from src.overworld.collision import CollisionSystem
 from src.entities.npc import NPC
+from src.battle.pokemon import PokemonDatabase
+from src.battle.moves import MoveDatabase
+from src.battle.battle_scene import BattleScene
 
 class Game:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption("Pokémon Roguelike Simulator")
+        pygame.display.set_caption("Pokémon Battle Simulator")
         
         self.screen = pygame.display.set_mode((WINDOW_WIDTH * SCALE_FACTOR, WINDOW_HEIGHT * SCALE_FACTOR))
         self.internal_surface = pygame.Surface((WINDOW_WIDTH, WINDOW_HEIGHT))
         self.clock = pygame.time.Clock()
         self.running = True
         
+        PokemonDatabase.load_database()
+        MoveDatabase.load_database()
+        try:
+            self.battle_font = pygame.font.Font("assets/fonts/pokemon_fire_red.ttf", 40)
+        except:
+            self.battle_font = pygame.font.SysFont("Arial", 40)
+            
         self.state = STATE_OVERWORLD
+        self.battle_scene = None
         self.load_assets()
         
         self.collision_system = CollisionSystem()
         self.player = Player(113, 143)
-        
         self.npc = NPC(START_BATTLE_POSITION[0], START_BATTLE_POSITION[1])
         
         self.fade_alpha = 0
@@ -52,6 +63,11 @@ class Game:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.running = False
+                
+            if self.state == STATE_BATTLE and self.battle_scene:
+                self.battle_scene.handle_input(event)
+                continue
+                
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     self.running = False
@@ -64,7 +80,7 @@ class Game:
                         interaction_rect = self.player.rect.inflate(12, 12)
                         if interaction_rect.colliderect(self.npc.rect):
                             print("💬 ¡Interacción con Brendan iniciada! Iniciando secuencia de combate...")
-                            self.is_fading = True # Dispara el fundido a negro
+                            self.is_fading = True 
 
     def update(self):
         if self.state == STATE_OVERWORLD:
@@ -87,6 +103,24 @@ class Game:
                     self.fade_alpha = 0
                     self.state = STATE_BATTLE
                     print("⚔️ ¡Posiciones listas! Transición al motor de combate completada.")
+                    
+                    self.setup_random_battle()
+                    
+        elif self.state == STATE_BATTLE and self.battle_scene:
+            self.battle_scene.update()
+            if self.battle_scene.state == "END":
+                self.state = STATE_OVERWORLD
+                self.battle_scene = None
+                print("Volviendo al Overworld...")
+
+    def setup_random_battle(self):
+        player_ids = random.sample(range(1, 152), 6)
+        enemy_ids = random.sample(range(1, 152), 6)
+        
+        player_team = [PokemonDatabase.create_pokemon(str(pid), level=50, is_enemy=False) for pid in player_ids]
+        enemy_team = [PokemonDatabase.create_pokemon(str(pid), level=55, is_enemy=True) for pid in enemy_ids]
+        
+        self.battle_scene = BattleScene(self.screen, player_team, enemy_team, self.battle_font)
 
     def draw(self):
         self.internal_surface.fill(BLACK)
@@ -114,6 +148,10 @@ class Game:
             (WINDOW_WIDTH * SCALE_FACTOR, WINDOW_HEIGHT * SCALE_FACTOR)
         )
         self.screen.blit(scaled_surface, (0, 0))
+        
+        if self.state == STATE_BATTLE and self.battle_scene:
+            self.battle_scene.draw()
+            
         pygame.display.flip()
 
     def run(self):

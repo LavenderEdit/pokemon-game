@@ -1,3 +1,6 @@
+import json
+import os
+
 class Move:
     def __init__(self, move_id, data_dict):
         self.move_id = move_id
@@ -15,3 +18,35 @@ class Move:
 
         accuracy_val = data_dict.get("accuracy")
         self.accuracy = accuracy_val if accuracy_val is not None else 0
+
+
+class MoveDatabase:
+    _db = {}
+    _loaded = False
+
+    @classmethod
+    def load_database(cls):
+        if cls._loaded:
+            return
+            
+        path = os.path.join("data", "moves.json")
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    cls._db = json.load(f)
+            except Exception as e:
+                print(f"Error cargando moves.json: {e}")
+                cls._db = {}
+        
+        cls._loaded = True
+
+    @classmethod
+    def get_move(cls, move_id):
+        cls.load_database()
+        
+        data_dict = cls._db.get(move_id, {})
+        
+        if "name" not in data_dict and data_dict:
+            data_dict["name"] = move_id.capitalize()
+            
+        return Move(move_id=move_id, data_dict=data_dict)
