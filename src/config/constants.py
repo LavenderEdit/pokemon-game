@@ -79,3 +79,28 @@ BRENDAN_RECTS = {
     DIR_LEFT: [(111, 1985, 16, 23), (128, 1985, 16, 23), (145, 1985, 16, 23)],
     DIR_RIGHT:[(162, 1985, 16, 23), (179, 1985, 16, 23), (196, 1985, 16, 23)]
 }
+
+POKEMON_SHEET_COLS = 15
+POKEMON_SPRITE_SIZE = 65
+POKEMON_X_STRIDE = 130
+POKEMON_Y_STRIDE = 164
+
+POKEMON_START_X = 11
+POKEMON_START_Y_FRONT = 46
+POKEMON_START_Y_BACK = 111
+
+UI_SPRITE_RECTS = {
+    "text_box":       (296, 55, 242, 48),
+    "narrative_arrow":(543, 57, 12, 9),
+    "hp_bar_enemy":   (2, 2, 102, 31),
+    "hp_bar_player":  (2, 43, 106, 39),
+}
+
+POS_ENEMY_PKMN = (144, 25)
+POS_PLAYER_PKMN = (40, 64)
+
+POS_HP_ENEMY = (21, 27)
+POS_HP_PLAYER = (127, 85)
+
+POS_TEXT_BOX = (0, 112)
+POS_ARROW = (220, 145)
